@@ -1,2 +1,12 @@
-Archivo (Omnibus-Type) e IBM Plex Mono (IBM) se distribuyen bajo la SIL Open Font License 1.1:
-https://openfontlicense.org
+Fuentes de esta página y sus licencias
+
+- archivo-palafe.woff2
+  Archivo, de The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo).
+  Versión modificada: recortada a los ejes wdth 100-125 y wght 400-800 y a los caracteres del español.
+  Se distribuye bajo la misma SIL Open Font License 1.1. Texto completo y aviso de copyright: OFL-Archivo.txt.
+  Archivo no declara nombres de fuente reservados.
+
+- IBMPlexMono-Medium-Latin1.woff2
+  IBM Plex Mono Medium, subconjunto Latin1 publicado por IBM, sin modificar
+  (https://github.com/IBM/plex, commit 017181e320cd0bea18f798d9ceb27a11c885c618).
+  SIL Open Font License 1.1, con el nombre reservado «Plex». Texto completo y aviso de copyright: OFL-IBM-Plex.txt.

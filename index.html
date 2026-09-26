@@ -2,103 +2,270 @@
 <html lang="es-MX">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="dark">
-  <title>Palafé · Compra y vende entre personas, muy pronto en México</title>
-  <meta name="description" content="Palafé es un mercado en línea en México para comprar y vender bienes y servicios digitales entre personas, sin admin en medio. Todavía no abre.">
+  <meta name="theme-color" content="#080a10">
+  <title>Palafé · Compra y vende entre personas en México · Todavía no abre</title>
+  <meta name="description" content="Palafé será un mercado en línea en México para comprar y vender lo digital entre personas, sin admin en medio: recargas, tarjetas de regalo, llaves de juego y, más adelante, cuentas de juego. Todavía no abre.">
   <link rel="canonical" href="https://palafe.com/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="fuentes/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fuentes/archivo-palafe.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="atmosfera" aria-hidden="true"></div>
 
   <header class="cabecera envoltura">
     <a class="marca" href="/" aria-label="Palafé, inicio">
       <img src="marca.svg" alt="" width="28" height="28">
       <span>PALAFÉ</span>
     </a>
-    <span class="estado"><span class="punto" aria-hidden="true"></span>Muy pronto</span>
+    <p class="estado mono"><span class="punto" aria-hidden="true"></span>En preparación</p>
   </header>
 
   <main id="contenido">
     <section class="portada envoltura" aria-labelledby="titulo">
-      <p class="rotulo">Mercado en línea entre personas · México</p>
-      <h1 id="titulo">Compra y vende entre personas, <em>sin admin en medio.</em></h1>
-      <p class="entrada">
-        Palafé es un mercado para bienes y servicios digitales: códigos, llaves de juego, licencias y servicios.
-        El pago lo retiene el proveedor de pagos, <strong>no Palafé</strong>, hasta que confirmas que recibiste
-        lo que compraste.
-      </p>
-
-      <aside class="aviso" aria-labelledby="aviso-titulo">
-        <p class="aviso-rotulo mono" id="aviso-titulo">AVISO</p>
-        <p>
-          <strong>Todavía no abrimos.</strong> Hoy nadie puede comprar ni vender en Palafé. Si alguien te ofrece un
-          trato «por Palafé», no es nuestro: no pagues.
+      <div class="suelo" aria-hidden="true"></div>
+      <div class="portada-texto">
+        <p class="rotulo mono">Mercado entre personas <span aria-hidden="true">·</span> México</p>
+        <h1 id="titulo">Compra y vende entre personas, <em>sin admin en medio.</em></h1>
+        <p class="entrada">
+          Palafé será un mercado para comprar y vender lo digital entre personas. Empezaremos con recargas, tarjetas
+          de regalo y llaves de juego, y queremos sumar cuentas de juego y más categorías. Lo estamos armando para que tu pago lo retenga un proveedor de pagos, <strong>no Palafé</strong>, y se libere
+          cuando confirmes o se compruebe la entrega. Todavía estamos eligiendo al proveedor.
         </p>
-      </aside>
+
+        <div class="aviso" role="note" aria-labelledby="aviso-titulo">
+          <span class="aviso-icono" aria-hidden="true"></span>
+          <div>
+            <p class="aviso-rotulo mono" id="aviso-titulo">Aviso</p>
+            <p><strong>Todavía no abrimos.</strong> Hoy nadie puede comprar ni vender en Palafé. Si alguien te ofrece un
+            trato «por Palafé», no es nuestro: no pagues.</p>
+          </div>
+        </div>
+
+        <div class="acciones">
+          <a class="boton boton-luz" href="#como">Ver cómo funcionaría <span class="flecha" aria-hidden="true">→</span></a>
+          <a class="boton boton-vidrio" href="mailto:contacto@palafe.com">Escríbenos</a>
+        </div>
+      </div>
+
+      <figure class="escena" aria-labelledby="escena-pie">
+        <span class="esquina e1" aria-hidden="true"></span><span class="esquina e2" aria-hidden="true"></span>
+        <span class="esquina e3" aria-hidden="true"></span><span class="esquina e4" aria-hidden="true"></span>
+        <svg class="trato" viewBox="0 0 560 470" role="img" aria-labelledby="trato-titulo trato-desc">
+          <title id="trato-titulo">Cómo va a viajar tu pago</title>
+          <desc id="trato-desc">Maqueta del plan: tu pago lo retiene un proveedor de pagos, no Palafé. Se libera al vendedor después de la entrega con pruebas y de tu revisión, o al terminar el plazo si se comprobó la entrega.</desc>
+          <defs>
+            <linearGradient id="t-laton" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f3e2b8"/><stop offset=".38" stop-color="#e2c078"/>
+              <stop offset=".64" stop-color="#c9a254"/><stop offset="1" stop-color="#8a6a2e"/>
+            </linearGradient>
+            <linearGradient id="t-vidrio" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#d6ecff" stop-opacity=".10"/><stop offset=".5" stop-color="#8fcbff" stop-opacity=".035"/>
+              <stop offset="1" stop-color="#8fcbff" stop-opacity=".07"/>
+            </linearGradient>
+            <linearGradient id="t-canto" gradientUnits="userSpaceOnUse" x1="214" y1="0" x2="346" y2="0">
+              <stop offset="0" stop-color="#d6ecff" stop-opacity="0"/><stop offset=".5" stop-color="#d6ecff" stop-opacity=".7"/>
+              <stop offset="1" stop-color="#d6ecff" stop-opacity="0"/>
+            </linearGradient>
+            <radialGradient id="t-halo">
+              <stop offset="0" stop-color="#8fcbff" stop-opacity=".55"/><stop offset=".45" stop-color="#5cb3ff" stop-opacity=".16"/>
+              <stop offset="1" stop-color="#5cb3ff" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="t-nucleo">
+              <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#d6ecff"/><stop offset="1" stop-color="#8fcbff"/>
+            </radialGradient>
+            <radialGradient id="t-calido">
+              <stop offset="0" stop-color="#e2c078" stop-opacity=".42"/><stop offset="1" stop-color="#e2c078" stop-opacity="0"/>
+            </radialGradient>
+            <path id="t-canto-sello" d="M 280 150 a 46 46 0 1 1 -.01 0"/>
+          </defs>
+
+          <g class="orbitas">
+            <circle class="orbita o1" cx="280" cy="196" r="182"/>
+            <circle class="orbita o2" cx="280" cy="196" r="132"/>
+          </g>
+
+          <line class="conducto-base" x1="74" y1="196" x2="486" y2="196"/>
+          <line class="conducto-brillo c-izq" x1="104" y1="196" x2="206" y2="196" pathLength="1"/>
+          <line class="conducto-luz c-izq" x1="104" y1="196" x2="206" y2="196" pathLength="1"/>
+          <line class="conducto-brillo c-der" x1="354" y1="196" x2="456" y2="196" pathLength="1"/>
+          <line class="conducto-luz c-der" x1="354" y1="196" x2="456" y2="196" pathLength="1"/>
+
+          <g class="nodo n-comprador">
+            <circle class="nodo-halo" cx="74" cy="196" r="46" fill="url(#t-halo)"/>
+            <circle class="nodo-disco" cx="74" cy="196" r="30"/>
+            <circle class="nodo-anillo" cx="74" cy="196" r="22"/>
+            <path class="nodo-icono" d="M 66 202 v -2 a 8 8 0 0 1 16 0 v 2 M 74 186 m -4.5 0 a 4.5 4.5 0 1 0 9 0 a 4.5 4.5 0 1 0 -9 0"/>
+            <text class="t-etiqueta" x="74" y="254">COMPRADOR</text>
+          </g>
+
+          <g class="nodo n-vendedor">
+            <circle class="vendedor-calido" cx="486" cy="196" r="52" fill="url(#t-calido)"/>
+            <circle class="nodo-disco" cx="486" cy="196" r="30"/>
+            <circle class="nodo-anillo" cx="486" cy="196" r="22"/>
+            <path class="nodo-icono" d="M 478 202 v -2 a 8 8 0 0 1 16 0 v 2 M 486 186 m -4.5 0 a 4.5 4.5 0 1 0 9 0 a 4.5 4.5 0 1 0 -9 0"/>
+            <text class="t-etiqueta" x="486" y="254">VENDEDOR</text>
+          </g>
+
+          <g class="camara">
+            <text class="t-etiqueta t-camara" x="280" y="96">PROVEEDOR DE PAGOS</text>
+            <circle class="camara-luz" cx="280" cy="196" r="88" fill="url(#t-halo)"/>
+            <circle class="camara-destello" cx="280" cy="196" r="80" fill="url(#t-calido)"/>
+            <rect class="camara-vidrio" x="206" y="112" width="148" height="168" rx="12"/>
+            <line x1="214" y1="112.6" x2="346" y2="112.6" stroke="url(#t-canto)" stroke-width="1.2"/>
+            <circle class="sello-guia" cx="280" cy="196" r="36"/>
+            <circle class="sello-anillo" cx="280" cy="196" r="36" pathLength="1"/>
+            <text class="sello-canto"><textPath href="#t-canto-sello" textLength="286" lengthAdjust="spacing">PAGO · ENTREGA · REVISIÓN · PAGO · ENTREGA · REVISIÓN ·</textPath></text>
+            <text class="t-estado estado-retenido" x="280" y="266">RETENIDO</text>
+            <text class="t-estado estado-liberado" x="280" y="266">LIBERADO</text>
+          </g>
+
+          <g class="orbe">
+            <circle class="orbe-halo" cx="280" cy="196" r="24" fill="url(#t-halo)"/>
+            <circle class="orbe-nucleo" cx="280" cy="196" r="7.5" fill="url(#t-nucleo)"/>
+          </g>
+
+          <g class="condiciones">
+            <rect class="cond-hoja" x="120" y="304" width="320" height="136" rx="2"/>
+            <line class="cond-corte" x1="132" y1="304.5" x2="428" y2="304.5"/>
+            <g class="cond k1">
+              <circle class="cond-marca" cx="150" cy="334" r="9"/>
+              <text class="cond-texto" x="172" y="339.5">Pago retenido</text>
+              <g class="cond-on">
+                <circle class="cond-marca-on" cx="150" cy="334" r="9"/>
+                <path class="cond-palomita" d="M 145.5 334 l 3.2 3.2 l 6 -6.6"/>
+                <text class="cond-texto-on" x="172" y="339.5">Pago retenido</text>
+              </g>
+            </g>
+            <g class="cond k2">
+              <circle class="cond-marca" cx="150" cy="372" r="9"/>
+              <text class="cond-texto" x="172" y="377.5">Entrega con pruebas</text>
+              <g class="cond-on">
+                <circle class="cond-marca-on" cx="150" cy="372" r="9"/>
+                <path class="cond-palomita" d="M 145.5 372 l 3.2 3.2 l 6 -6.6"/>
+                <text class="cond-texto-on" x="172" y="377.5">Entrega con pruebas</text>
+              </g>
+            </g>
+            <g class="cond k3">
+              <circle class="cond-marca" cx="150" cy="410" r="9"/>
+              <circle class="cond-espera" cx="150" cy="410" r="9"/>
+              <text class="cond-texto" x="172" y="415.5">Tu revisión</text>
+              <g class="cond-on">
+                <circle class="cond-marca-on" cx="150" cy="410" r="9"/>
+                <path class="cond-palomita" d="M 145.5 410 l 3.2 3.2 l 6 -6.6"/>
+                <text class="cond-texto-on" x="172" y="415.5">Tu revisión</text>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <figcaption id="escena-pie" class="mono">Maqueta del plan · así viajaría un pago</figcaption>
+      </figure>
     </section>
 
-    <section class="recibo envoltura" aria-labelledby="como">
+    <section class="recibo envoltura" id="como" aria-labelledby="como-titulo">
+      <div class="recibo-cabeza">
+        <p class="rotulo mono">El trato, paso a paso</p>
+        <h2 id="como-titulo">Así queremos que funcione</h2>
+        <p class="recibo-nota">Es el plan para la apertura y puede cambiar. Las reglas completas van a estar en los Términos y Condiciones antes de que puedas comprar o vender.</p>
+      </div>
       <div class="hoja">
-        <header class="hoja-cabeza">
-          <h2 id="como">Así va a funcionar</h2>
-          <p class="mono folio">3 PASOS</p>
-        </header>
-        <ol class="pasos">
-          <li class="paso">
-            <span class="numero mono" aria-hidden="true">01</span>
+        <div class="hoja-cabeza mono" aria-hidden="true">
+          <span>Ejemplo</span><span>3 pasos</span>
+        </div>
+        <ol class="rastro" role="list">
+          <li class="paso hecho">
+            <span class="nodo-rastro" aria-hidden="true"></span>
             <div>
+              <p class="paso-num mono" aria-hidden="true">01</p>
               <h3>Pagas</h3>
-              <p>El dinero queda retenido por el proveedor de pagos. Palafé nunca lo tiene.</p>
+              <p>El dinero queda retenido por el proveedor de pagos, no por Palafé.</p>
             </div>
           </li>
-          <li class="paso">
-            <span class="numero mono" aria-hidden="true">02</span>
+          <li class="paso hecho">
+            <span class="nodo-rastro" aria-hidden="true"></span>
             <div>
+              <p class="paso-num mono" aria-hidden="true">02</p>
               <h3>Te entregan</h3>
               <p>El vendedor entrega dentro de Palafé, con pruebas, y tú tienes un tiempo para revisar.</p>
             </div>
           </li>
-          <li class="paso">
-            <span class="numero mono" aria-hidden="true">03</span>
+          <li class="paso actual">
+            <span class="nodo-rastro" aria-hidden="true"></span>
             <div>
+              <p class="paso-num mono" aria-hidden="true">03</p>
               <h3>Se libera, o se revisa</h3>
-              <p>Si todo está bien, confirmas y el pago llega al vendedor. Si algo falla, abres un caso con pruebas y lo decide una persona.</p>
+              <p>Si todo está bien, confirmas y el pago se libera al vendedor. Si no confirmas ni abres un caso y el sistema comprobó la entrega, se libera solo al terminar el plazo. Si algo falla, abres un caso con pruebas y lo decide una persona.</p>
             </div>
           </li>
         </ol>
+        <svg class="sello-recibo" viewBox="0 0 120 120" aria-hidden="true">
+          <defs>
+            <linearGradient id="r-laton" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f3e2b8"/><stop offset=".38" stop-color="#e2c078"/>
+              <stop offset=".64" stop-color="#c9a254"/><stop offset="1" stop-color="#8a6a2e"/>
+            </linearGradient>
+            <path id="r-canto" d="M 60 18 a 42 42 0 1 1 -.01 0"/>
+          </defs>
+          <circle cx="60" cy="60" r="54" fill="none" stroke="url(#r-laton)" stroke-width="2.4"/>
+          <circle cx="60" cy="60" r="31" fill="none" stroke="url(#r-laton)" stroke-width="1.2" stroke-dasharray="1.5 3"/>
+          <text class="sello-recibo-canto"><textPath href="#r-canto" textLength="262" lengthAdjust="spacing">SE LIBERA CON TU CONFIRMACIÓN · EJEMPLO ·</textPath></text>
+          <path d="M 57.3 43.2 A 17 17 0 0 0 57.3 76.8 M 62.7 43.2 A 17 17 0 0 1 62.7 76.8" fill="none" stroke="url(#r-laton)" stroke-width="5"/>
+          <line x1="60" y1="38" x2="60" y2="82" stroke="#d6ecff" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
       </div>
     </section>
 
     <section class="nunca envoltura" aria-labelledby="nunca-titulo">
+      <p class="rotulo mono">Para que nadie te engañe</p>
       <h2 id="nunca-titulo">Tres cosas que Palafé <em>nunca</em> hace</h2>
-      <ul class="lista-nunca">
-        <li><span class="sello" aria-hidden="true"></span><span>Nunca te escribe primero por mensaje directo.</span></li>
-        <li><span class="sello" aria-hidden="true"></span><span>Nunca te pide contraseñas ni códigos de verificación.</span></li>
-        <li><span class="sello" aria-hidden="true"></span><span>Nunca te pide pagar fuera de <span class="mono">palafe.com</span>.</span></li>
+      <ul class="lista-nunca" role="list">
+        <li class="vitrina">
+          <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v10H9l-5 4v-14z"/><path class="tacha" d="M3 3l18 18"/></svg>
+          <span>Nunca te manda mensajes privados por WhatsApp, Discord, Facebook ni Telegram.</span>
+        </li>
+        <li class="vitrina">
+          <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="12" r="3.5"/><path d="M11.5 12H21m-3 0v3m-3-3v2"/><path class="tacha" d="M3 3l18 18"/></svg>
+          <span>Nunca te pide contraseñas ni códigos.</span>
+        </li>
+        <li class="vitrina">
+          <svg class="icono" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19.5v-1a5.5 5.5 0 0 1 11 0v1"/><circle cx="17.5" cy="14" r="3"/><path d="M17.5 12.6v2.8"/><path class="tacha" d="M3 3l18 18"/></svg>
+          <span>Nunca te pide pagar a una persona.</span>
+        </li>
       </ul>
-      <p class="oficial">
-        La única dirección oficial es <strong class="mono">palafe.com</strong>. Cualquier otra que use el nombre o se parezca
-        no es nuestra.
-      </p>
+    </section>
+
+    <section class="interludio envoltura" aria-labelledby="oficial-titulo">
+      <div class="interludio-texto">
+        <h2 id="oficial-titulo">La única dirección oficial es <em class="mono">palafe.com</em></h2>
+        <p>Cualquier otra que use el nombre o se parezca no es nuestra.</p>
+      </div>
+      <div class="moneda" aria-hidden="true">
+        <div class="moneda-giro">
+          <span class="cara dorso"><span class="dorso-texto mono">palafe.com</span></span>
+          <span class="canto" style="--i:1"></span><span class="canto" style="--i:2"></span><span class="canto" style="--i:3"></span><span class="canto" style="--i:4"></span><span class="canto" style="--i:5"></span><span class="canto" style="--i:6"></span><span class="canto" style="--i:7"></span><span class="canto" style="--i:8"></span><span class="canto" style="--i:9"></span><span class="canto" style="--i:10"></span><span class="canto" style="--i:11"></span><span class="canto" style="--i:12"></span>
+          <span class="cara frente"><img src="marca.svg" alt="" width="96" height="96"></span>
+        </div>
+        <span class="moneda-sombra"></span>
+      </div>
     </section>
 
     <section class="contacto envoltura" aria-labelledby="contacto-titulo">
+      <p class="rotulo mono">Hablemos</p>
       <h2 id="contacto-titulo">Contacto</h2>
-      <dl class="datos">
-        <div><dt>General</dt><dd><a class="mono" href="mailto:contacto@palafe.com">contacto@palafe.com</a></dd></div>
-        <div><dt>Datos personales</dt><dd><a class="mono" href="mailto:privacidad@palafe.com">privacidad@palafe.com</a></dd></div>
-        <div><dt>Reportar un fallo de seguridad</dt><dd><a class="mono" href="mailto:seguridad@palafe.com">seguridad@palafe.com</a></dd></div>
-      </dl>
-      <p class="privacidad">Esta página no usa cookies, no tiene formularios y no recaba datos personales.</p>
+      <ul class="datos" role="list">
+        <li><a class="vitrina dato" href="mailto:contacto@palafe.com"><span class="dato-rotulo">General</span><span class="mono dato-correo">contacto@palafe.com</span><span class="flecha" aria-hidden="true">→</span></a></li>
+        <li><a class="vitrina dato" href="mailto:privacidad@palafe.com"><span class="dato-rotulo">Datos personales</span><span class="mono dato-correo">privacidad@palafe.com</span><span class="flecha" aria-hidden="true">→</span></a></li>
+        <li><a class="vitrina dato" href="mailto:seguridad@palafe.com"><span class="dato-rotulo">Reportar un fallo de seguridad</span><span class="mono dato-correo">seguridad@palafe.com</span><span class="flecha" aria-hidden="true">→</span></a></li>
+      </ul>
+      <p class="privacidad">Esta página no usa cookies, formularios ni herramientas de analítica. GitHub, que la aloja, registra la IP de cada visita por seguridad, según <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">su documentación</a>. Si nos escribes, recibimos tu dirección y lo que nos cuentes, y lo usamos sólo para atender tu mensaje.</p>
     </section>
   </main>
 
   <footer class="pie envoltura">
-    <p>© 2026 Palafé. Empresa en constitución en México.</p>
+    <p>Palafé es un proyecto en preparación en México. La empresa que lo operará aún no está constituida.</p>
     <p class="mono">palafe.com</p>
   </footer>
 </body>
